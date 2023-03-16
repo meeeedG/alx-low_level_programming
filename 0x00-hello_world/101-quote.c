@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - to print the phrase wanted
+ * Return: 1 means that there is some error while executing the program
  */
 int main(void)
 {
