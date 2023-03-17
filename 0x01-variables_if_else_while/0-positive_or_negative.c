@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/*
- * main - assings a random number in n and prints
- * return: 0 code runs succesfully
+/**
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
+ * Return: 0 code runs succesfully
  */
 int main(void)
 {
@@ -22,8 +22,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		
-			printf("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	}
-	return(0);
+return (0);
 }

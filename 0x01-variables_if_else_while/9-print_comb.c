@@ -1,13 +1,21 @@
-#include <stdlib.h>
-#include <time.h>
 #include<stdio.h>
-/* main - to give random number and excute and print
- * return: 0 code runs with succes
+/**
+ * main - print all possible combinations of single digit numbers
+ * ascending order
+ * Return: 0 code runs with succes
  */
 
 int main(void)
 {
-        int n;
+	int a = 48;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
+	while (a != 57)
+	{
+		putchar(a);
+		putchar(',');
+		putchar(' ');
+		a++;
+	}
+	putchar('9\n');
+	return (0);
+}

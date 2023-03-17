@@ -1,13 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
 #include<stdio.h>
-/* main - to give random number and excute and print
- * return: 0 code runs with succes
+
+/**
+ * main - print all single digits of base 10
+ * and a new line
+ * Return: 0 code runs with succes
  */
 
 int main(void)
 {
-        int n;
+	char c;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
+	for (c = '1'; c <= '9'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
+}

@@ -1,13 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
 #include<stdio.h>
-/* main - to give random number and excute and print
- * return: 0 code runs with succes
+
+/**
+ * main - print alphabet
+ * followed b new line, no e and q
+ * Return: 0 code runs with succes
  */
 
 int main(void)
 {
-        int n;
+	char c;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
+	for (c = 'a'; c <= 'z'; c++)
+		if (c != 'e' && c != 'q')
+			putchar(c);
+	return (0);
+}

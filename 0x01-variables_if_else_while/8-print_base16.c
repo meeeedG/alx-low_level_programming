@@ -1,13 +1,24 @@
-#include <stdlib.h>
-#include <time.h>
 #include<stdio.h>
-/* main - to give random number and excute and print
- * return: 0 code runs with succes
+
+/**
+ * main - print all numbers of base 16
+ * and a new line
+ * Return: 0 code runs with succes
  */
 
 int main(void)
 {
-        int n;
+	char c;
+	char d;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
+	for (c = '0'; c <= '9'; c++)
+	{
+		putchar(c);
+	}
+	for (d = 'a'; d <= 'f'; d++)
+	{
+		putchar(d);
+	}
+	putchar('\n');
+	return (0);
+}

@@ -1,13 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
 #include<stdio.h>
-/* main - to give random number and excute and print
- * return: 0 code runs with succes
+
+/**
+ *  main - print numbers of base 10
+ *  no char var, new line
+ * Return: 0 code runs with succes
  */
 
 int main(void)
 {
-        int n;
+	int f;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
+	for (f = 48; f <= 57; f++)
+	{
+		putchar(f);
+	}
+	putchar('\n');
+	return (0);
+}
