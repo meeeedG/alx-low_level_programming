@@ -1,14 +1,21 @@
 #include <stdio.h>
 int main(void)
 {
-	int n;
-	if n = 0;
+	int n=9;
+	if (n == 0)
 	{
-		printf("%d\n is positive", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%d\n is negative", n);
+		if (n > 0)
+		{
+			printf("%d is positive\n", n);
+		}
+		else;
+		{
+		printf("%d is negative\n", n);
+		}
 	}
 	return(n);
 }
