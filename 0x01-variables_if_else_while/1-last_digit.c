@@ -19,6 +19,6 @@ int main(void)
 	else if (n % 10 == 0)
 		printf(" and is 0\n");
 	else if (n % 10 > 5)
-		printf(" is greater than 5\n");
+		printf(" and is greater than 5\n");
 	return (0);
 }
