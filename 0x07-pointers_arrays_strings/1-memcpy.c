@@ -7,7 +7,7 @@
  * @n : number of bytes to copy
  * Return: point to destination
  */
-char *memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
